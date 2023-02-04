@@ -16,6 +16,7 @@ h2{
 h5{
     margin-top: 5%;
     margin-bottom: 2%;
+    color: #BFDF32;
 }
 .card{
     overflow: hidden;
@@ -29,6 +30,7 @@ h5{
     width: 100%;
 }
 .card-part1 p{
+    width: 100%;
     line-height: 18px;
     font-size: 14px;
     color: #d2d3d8;
@@ -59,8 +61,6 @@ h5{
 .sign-up{
     border: none;
     margin-top: 20px;
-    /* transform: translate(-50%,-50%);
-    margin-left: 50%; */
     padding: 15px 17px;
     display: flex;
     justify-content: center;
