@@ -20,7 +20,6 @@ h5{
 }
 .card{
     overflow: hidden;
-    width: 33%;
     justify-content: center;
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.185);
@@ -41,6 +40,7 @@ h5{
     margin-top: 20px;
     color: #fff;   
     line-height: 20px;
+    background-color: #4abebd;
 }
 .card-part2 h3{
     margin-bottom: 10%;
