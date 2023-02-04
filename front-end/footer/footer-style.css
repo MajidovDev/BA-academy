@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -18,19 +19,30 @@ a{
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 24px;
     /* identical to box height */
-
     text-align: center;
     text-transform: uppercase;
-
     /* White */
-
     color: #FFFFFF;
 
 }
 .email p{
     padding: 10px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
 }
 .email{
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -48,10 +60,15 @@ a{
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 .email button{
     border: none;
     width: 40%;
     background: #FFD2A4;
     border-radius: 12px;
+    
+}
+.logos img{
+    margin: 20px 20px 20px 0;
 }
