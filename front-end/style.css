@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+h2{
+
+    color: #64A6A7;
+}
+h5{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.card{
+    overflow: hidden;
+    width: 33%;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.185);
+}
+.card-part1{
+    margin: 20px;
+    width: 100%;
+}
+.card-part1 p{
+    line-height: 18px;
+    font-size: 14px;
+    color: #d2d3d8;
+    /* padding-bottom: 20px; */
+}
+.card-part2{
+    display: flex;
+    display: flex;
+    margin-top: 20px;
+    color: #fff;   
+    line-height: 20px;
+}
+.card-part2 h3{
+    margin-bottom: 10%;
+}
+.price{
+    padding: 25px;
+    background-color: #2bb3b1;
+}
+.price .narx{
+    display: flex;
+    align-items: center;
+}
+.price span{
+    margin-right: 10px;
+    font-size: 25px;
+}
+.sign-up{
+    border: none;
+    margin-top: 20px;
+    /* transform: translate(-50%,-50%);
+    margin-left: 50%; */
+    padding: 15px 17px;
+    display: flex;
+    justify-content: center;
+    background-color: #BFDF32;
+    border-radius: 5px;    
+    box-shadow: 1px 1px 10px rgba(195, 191, 191, 0.185);
+    width: 80%;
+    color: #fff;
+}
+.why-us{
+    background-color: #4abebd;
+    padding: 25px;
+}
